@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin:0% ;
+}
+/* .container-fluid-well{
+    background-color:teal;
+    height: 700px;
+    width: 100%;
+}
+.nav{
+    background-color:tan; 
+}
+.Card0{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    background-color:#c38d9e;
+}
+.Card1,.Card2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.logo{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.box{
+    height: 630px;
+    width: 100%;
+    background-color:#e9bac9;
+    overflow: hidden;
+}
+.box1{
+    height: 340px;
+    width: 25%;
+    background-color: cadetblue;
+    padding: 30px 40px ;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+#button{
+ width: 30%;
+ height: 30px;
+ margin-left: 50px;
+} */
+
+/* .container{
+    background-color:wheat;
+    height: 620px;
+    display: grid;
+    place-items: center;
+    
+   
+  }
+  .container h1{
+    color:black;
+    display: grid;
+    align-items: center;
+    
+  }
+  .form{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    display: grid;
+  
+    
+   
+  }
+  .form label,::placeholder
+  {
+      display: block;
+      font-weight: 1000;
+  }
+  ::placeholder
+  {
+      font-weight: 1000;
+      padding: 10px;
+  }
+  
+  .form input{
+  
+   border-radius: 10px;
+   border: solid 2px;
+   
+  
+  }
+    button{
+    margin-top: 10px;
+    background-color:crimson;
+    border-radius: 50px;
+    border: solid 2px;
+    font-weight: bold;
+    font-style: italic;
+  
+  } */
+/* =========================================== */
+.h1{
+    text-align: center;
+}
+.a1{
+    text-align: center;
+    margin-left: 10px;
+}
+.box{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
