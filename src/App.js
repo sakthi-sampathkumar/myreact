@@ -1,18 +1,20 @@
-// import Blue from './Sample';
-// import Todos from './Demo';
-// import './Demo.css';
-import Pages from './Example';
-// import Test from './Test';
-// import Form from './Forms';
-// import Blue from './Sample';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./Layout";
+import Blogs from "./Blogs";
+import Contact from "./Contact";
 function App() {
   return (
-    <div className="App">
-      {/* <Form /> */}
-      {/* <Blue /> */}
-      {/* <Todos /> */}
-      <Pages />
-    </div>
+    <div>
+    <BrowserRouter>
+  <Routes>
+          <Route path="/" element={<Layout />}></Route>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+   </BrowserRouter>
+  </div>
   );
 }
 

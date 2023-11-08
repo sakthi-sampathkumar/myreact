@@ -1,5 +1,25 @@
-import React from "react";
+import { Outlet, Link } from "react-router-dom";
 
-export default function Page1(){
-    return( <h1>hello world</h1> );
-}
+const Layout = () => {
+  return (
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Outlet />
+    </>
+  )
+};
+
+export default Layout;
