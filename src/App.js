@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Blogs from "./Blogs";
 import Contact from "./Contact";
+import Home from "./Home";
 
 function App() {
   return (
@@ -9,11 +10,10 @@ function App() {
     <BrowserRouter>
   <Routes>
           <Route path="/" element={<Layout />}>
-          {/* <Route path="home" element={<Home />} /> */}
           <Route path="blogs" element={<Blogs />} />
-          <Route path="contact/:id" element={<Contact />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
-          </Route> 
+          <Route path="home" element={<Home />} />
+          </Route>
+          <Route path="contact/:id" element={<Contact />} > </Route> 
         </Routes>
    </BrowserRouter>
   </div>
